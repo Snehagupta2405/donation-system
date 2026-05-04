@@ -1,0 +1,168 @@
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background: #f5f5f5;
+}
+
+.hero-text {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.hero-text h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  margin: 15px 0;
+}
+
+.donate-btn {
+  padding: 10px 20px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero-image img {
+  width: 100%;         /* or a fixed size like 600px */
+  max-width: 600px;    /* adjust as needed */
+  height: auto;        /* keeps aspect ratio */
+  border-radius: 10px; /* optional: makes corners rounded */
+}
+
+
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #fff;
+}
+
+.about-image img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.about-text {
+  flex: 1;
+  padding-left: 30px;
+}
+
+.about-text h2 {
+  font-size: 1.8rem;
+  color: #2c3e50;
+}
+
+.read-more-btn {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.donation-section {
+  padding: 40px;
+  background-color: #f0f8ff;
+  text-align: center;
+}
+
+.donation-section h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #34495e;
+}
+
+.donation-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.donation-card {
+  background: #fff;
+  padding: 20px;
+  width: 220px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.donation-card:hover {
+  transform: scale(1.05);
+}
+
+.donation-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.donation-card h3 {
+  margin: 10px 0 5px;
+  color: #2c3e50;
+}
+
+.contact-us {
+  padding: 40px;
+  background-color: #e0f7fa;
+  text-align: center;
+}
+
+.contact-us h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #006064;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.contact-details div {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.login-links-section {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.login-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.login-links a {
+  text-decoration: none;
+  color: white;
+  background-color: #4a90e2;
+  padding: 0.7rem 1.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.login-links a:hover {
+  background-color: #357ab8;
+}
+
