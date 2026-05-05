@@ -24,8 +24,8 @@ function ManageDonations() {
     }
   };
 
-  useEffect(() => { load(); }, []);
-
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+useEffect(() => { load(); }, []);
   const onDelete = async (id) => {
     if (window.confirm("Are you sure you want to delete this donation?")) {
       try {

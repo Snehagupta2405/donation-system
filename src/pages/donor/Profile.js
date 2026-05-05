@@ -3,7 +3,7 @@ import { authFetch, getUser } from "../../utils/auth";
 import { useNavigate } from "react-router-dom";
 
 export default function DonorProfile() {
-  const navigate = useNavigate();
+ 
   const [form, setForm] = React.useState({
     name: "",
     email: "",
