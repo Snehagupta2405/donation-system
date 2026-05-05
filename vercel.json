@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://donation-system-backend-s4l1.onrender.com/api/:path*"
+    }
+  ]
+}
