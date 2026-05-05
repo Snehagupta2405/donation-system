@@ -20,7 +20,10 @@ connectDB();
 const app = express();
 
 // Middlewares
-app.use(cors());
+app.use(cors({
+  origin: ["https://donation-system-z5hq.vercel.app", "http://localhost:3000"],
+  credentials: true
+}));
 app.use(express.json());
 
 app.use("/api/admin", adminRoutes);
